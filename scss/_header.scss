@@ -1,0 +1,34 @@
+
+/* CSS HEADER */
+
+header {
+    display: grid;
+    grid-template-areas: "logo contacto" "logo menuprincipal";
+    padding: 30px;
+    margin: auto;
+    background-color: #003e1f;
+    color: #fffcf2;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  
+    p {
+      background-color: #003e1f;
+    }
+}
+  
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+    grid-area: menuprincipal;
+}
+  
+.contenedorTelefonosPrincipal {
+    color: #fffcf2;
+    text-align: right;
+    margin-right: 30x;
+    font-size: 12px;
+    grid-area: contacto;
+}  

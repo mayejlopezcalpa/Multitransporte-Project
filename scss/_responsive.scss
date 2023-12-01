@@ -1,0 +1,48 @@
+
+/* RESPONSIVE */
+
+@media (min-width: 320px) and (max-width: 900px) {
+    nav ul li {
+      list-style-type: none;
+      display: block;
+      margin-right: 5px;
+      font-size: 10px;
+      text-align: right;
+    }
+  
+    .logo {
+      width: 180px;
+      cursor: pointer;
+    }
+  
+    .contenedorFooterLogo {
+      width: 100px;
+    }
+  
+    .contenedorTelefonosPrincipal {
+      display: none;
+    }
+  
+    .contenedorServiciosHomePrincipal, .contenedorFormularioPrincipal {
+      flex-wrap: wrap;
+    }
+  
+    form {
+      flex-direction: column;
+      border: none;
+    }
+  
+    .contenedorFormularioCampos {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .contenedorFormularioContacto, .contenedorFormularioTelefonos, iframe, .footerMenu {
+      display: none;
+    }
+  
+    .contenedorFooterInfo {
+      display: block;
+    }
+  }  
