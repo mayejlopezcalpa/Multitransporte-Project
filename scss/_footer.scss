@@ -3,9 +3,9 @@
 
 footer {
     margin: auto;
-    padding: 30px;
+    padding: 5px;
     font-size: x-small;
-    background-color: #003e1f;
+    background-color: $color-principal;
 }
   
 .contenedorFooter {
@@ -19,7 +19,7 @@ footer {
     margin: 10px;
     padding: 10px;
     font-size: 11px;
-    color: #dad7cd;
+    color: $title-color;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -29,10 +29,11 @@ footer {
 .contenedorFooterLogo {
     border-top: #6b705c 2px solid;
     border-bottom: #6b705c 2px solid;
+    width: auto;
 }
   
 .contendedorDerechosReservados {
-    color: #fffcf2;
+    color: $title-color ;
     text-align: center;
     font-size: 10px;
 }  

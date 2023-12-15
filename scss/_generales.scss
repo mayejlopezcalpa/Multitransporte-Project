@@ -14,15 +14,16 @@ main {
 h1 {
     text-align: center;
     text-decoration: none;
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
     background-color: #ccd5ae;
     font-size: 23px;
+    font-weight: bold;
 }
   
 h2 {
-    background-color: #003e1f;
-    color: #fffcf2;
+    background-color: $color-principal;
+    color: #ffff;
     text-align: left;
     padding: 10px;
     font-weight: bold;
@@ -30,30 +31,28 @@ h2 {
 }
   
 h4 {
-    background-color: #003e1f;
-    color: #fffcf2;
-    text-align: left;
+    background-color: $color-principal;
+    color: $title-color;
     padding: 10px;
     font-weight: bold;
     font-size: 15px;
-    margin-bottom: 20px;
-    margin-top: 20px;
     border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
   
 .textoPrincipal {
     text-align: center;
     font-size: 18px;
     padding: 10px;
-    margin: 10px;
-    color: #343a40;
+    margin: 5px;
 }
   
 a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: #fffcf2;
+    color: $title-color;
 }
   
 .logo {
@@ -64,7 +63,7 @@ a {
   
 .btnRevervarCotizar {
     background-color: #55a630;
-    color: #fffcf2;
+    color: $title-color;
     margin: 10px;
     padding: 10px 10px;
     border-radius: 6px;
@@ -80,3 +79,11 @@ a {
       width: 170px;
     }
 }  
+
+.navbar-toggler {
+    background-color: #ffff;
+}
+
+.card-title {
+    color: #ffff;
+}
